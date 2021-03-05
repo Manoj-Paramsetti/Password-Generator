@@ -8,7 +8,7 @@ On the internet every piece of data is important and a password is a very very i
 ## How to protect you from the internet 🔒
 Change your password monthly or four times a year to be more secure and don't disclose your password to anyone. Avoid public networks and don't log in to any unauthorized website. 
 
-Use a unique password to all the websites. you can do this by adding your social media name with the username or password in the end/start on the script
+Use a unique password to all the websites. you can do this by adding your social media name with the username or password at the end/start on the script
 
     Eg. username: manoj-paramsetti@linkedin
         password: password@linkedin
@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 if you're not having pip. see this [doc](https://pip.pypa.io/en/stable/installing/)
 
 ## How to run 🚀
-Open CMD/Terminal/Powershell and Run this commands
+Open CMD/Terminal/Powershell and Run these commands
 ```
 cd Password-Generator
 python3 main.py
