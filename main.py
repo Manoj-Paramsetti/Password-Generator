@@ -3,6 +3,7 @@ from os import system
 import _console
 import Encrypter.Encrypt_1
 import Encrypter.Encrypt_2
+import sys
 
 class password():
     #taking the password length for the final syage
@@ -35,10 +36,16 @@ class password():
                 else:
                      print("Enter the {} again. It should have max. of 8 character".format(data[j]))
 
-        self.paѕѕword1 = self.ARR[0]+self.ARR[1]
-        self.paѕѕword𝟸 = self.ARR[1]+self.ARR[0]
-        self.paѕsword1 = self.ARR[1] + "!@#$%^&*()" + self.ARR[0]
-        self.paѕsword2 = self.ARR[0]+self.ARR[1] + ")(*&^%$#@!"
+        if("CTF" in sys.argv or "ctf" in sys.argv): 
+            self.paѕѕword1 = self.ARR[0]+self.ARR[1]
+            self.paѕѕword𝟸 = self.ARR[1]+self.ARR[0]
+            self.paѕsword1 = self.ARR[1] + self.ARR[0]
+            self.paѕsword2 = self.ARR[0]+self.ARR[1]
+        else:
+            self.paѕѕword1 = self.ARR[0]+self.ARR[1]
+            self.paѕѕword𝟸 = self.ARR[1]+self.ARR[0]
+            self.paѕsword1 = self.ARR[1] + "!@#$%^&*()" + self.ARR[0]
+            self.paѕsword2 = self.ARR[0]+self.ARR[1] + ")(*&^%$#@!"
 
     #Encryption goes here
     def encrypt(self):
