@@ -27,6 +27,7 @@ Open CMD/Terminal/Powershell and Run these commands
 cd Password-Generator
 python3 main.py
 ```
+#### It's recommended to have a password with 25 characters
 ## Give a Star ⭐
 If you like this project, give it a star and if you found any flaw, then report it in [issues](https://github.com/Manoj-Paramsetti/Password-Generator/issues)
 
